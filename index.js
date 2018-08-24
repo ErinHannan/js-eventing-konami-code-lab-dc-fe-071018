@@ -20,9 +20,10 @@ function init() {
     
     if (e.which === code[index]) {
       console.log("MATCH");
-      
-      
-      
+      index++;
+    } else {
+      console.log("OOPS!");
+    }
       
     }
     
