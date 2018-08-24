@@ -20,6 +20,10 @@ function init() {
     
     if (e.which === code[index]) {
       console.log("MATCH");
+      
+      
+      
+      
     }
     
     if (e.which === 37) {
