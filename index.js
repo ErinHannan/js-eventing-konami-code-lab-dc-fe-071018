@@ -18,7 +18,9 @@ function init() {
     console.log("== onKeyDownHandler ==");
     console.log("e.which:" , e.which);
     
-    if (e.which === code[index])
+    if (e.which === code[index]) {
+      console.log("MATCH");
+    }
     
     if (e.which === 37) {
       console.log("37");
