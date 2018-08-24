@@ -11,9 +11,14 @@ function init() {
   
   bodyArray[0].addEventListener("keydown", onKeyDownHandler);
   
+  let index = 0;
+  
+  
   function onKeyDownHandler(e) {
     console.log("== onKeyDownHandler ==");
     console.log("e.which:" , e.which);
+    
+    if (e.which === code[index])
     
     if (e.which === 37) {
       console.log("37");
