@@ -11,9 +11,10 @@ function init() {
   
   bodyArray[0].addEventListener("keydown", onKeyDownHandler);
   
-  function onKeyDownHandler() {
+  function onKeyDownHandler(e) {
     console.log("== onKeyDownHandler ==");
   }
 }
 init();
+
 }
