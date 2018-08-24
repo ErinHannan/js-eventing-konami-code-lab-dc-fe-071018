@@ -15,6 +15,20 @@ function init() {
     console.log("== onKeyDownHandler ==");
     console.log("e.which:" , e.which);
     
+    if (e.which === 37) {
+      console.log("37");
+       } else if (e.which === 38) {
+         console.log("up");
+       } else if (e.which === 39) {
+         console.log("right");
+       } else if (e.which === 40) {
+         console.log("down");
+       }
+    
+    
+    
+    
+    
   }
 }
 init();
